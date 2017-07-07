@@ -28,4 +28,4 @@ Before running the tests make sure you are serving the app via `ng serve`.
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## Tutorial here
-https://www.sitepoint.com/understanding-component-architecture-angular/
+https://www.sitepoint.com/angular-rxjs-create-api-service-rest-backend/
