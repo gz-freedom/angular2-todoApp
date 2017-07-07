@@ -8,6 +8,8 @@ import { TodoListFooterComponent } from './todo-list-footer/todo-list-footer.com
 import { TodoListComponent } from './todo-list/todo-list.component';
 import { TodoListItemComponent } from './todo-list-item/todo-list-item.component';
 
+import { TodoDataService } from './todo-data.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,7 @@ import { TodoListItemComponent } from './todo-list-item/todo-list-item.component
     FormsModule,
     BrowserModule
   ],
-  providers: [],
+  providers: [TodoDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
